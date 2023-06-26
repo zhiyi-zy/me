@@ -150,7 +150,15 @@ def diarist():
 
     NOTE: this function doesn't return anything. It has the _side effect_ of modifying the file system
     """
-    pass
+    laser_on_off_count = 0
+
+    with open('Trispokedovetiles(laser).gcode', 'r') as file:
+        for line in file:
+            if 'M10 P1' in line:
+                laser_on_off_count += 1
+
+    with open("lasers.pew", "w", encoding="utf-8") as file:
+        file.write(str(laser_on_off_count))
 
 
 if __name__ == "__main__":
