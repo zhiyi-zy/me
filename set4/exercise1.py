@@ -35,12 +35,17 @@ def get_some_details():
          data["results"][0]["name"]["title"]
          Look out for the type of brackets. [] means list and {} means
          dictionary, you'll need integer indeces for lists, and named keys for
-         dictionaries.
+         dictionaries. 
     """
     json_data = open(LOCAL + "/lazyduck.json").read()
 
     data = json.loads(json_data)
-    return {"lastName": None, "password": None, "postcodePlusID": None}
+    lastname = data["results"][0]["name"]["last"]
+    password = data["results"][0]["login"]["password"]
+    postcode = data["results"][0]["location"]["postcode"]
+    id = data["results"][0]["id"]["value"]
+    postcodePlusID = postcode + int(id)
+    return {"lastName": lastname, "password": password, "postcodePlusID": postcodePlusID}
 
 
 def wordy_pyramid():
@@ -78,6 +83,18 @@ def wordy_pyramid():
     TIP: to add an argument to a URL, use: ?argName=argVal e.g. &wordlength=
     """
     pyramid = []
+
+    for length in range(3, 21, 2):
+        url = f"https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={length}"
+        response = requests.get(url)
+        word = response.text.strip()
+        pyramid.append(word)
+
+    for length in range(20, 3, -2):
+        url = f"https://us-central1-waldenpondpress.cloudfunctions.net/give_me_a_word?wordlength={length}"
+        response = requests.get(url)
+        word = response.text.strip()
+        pyramid.append(word)
 
     return pyramid
 
