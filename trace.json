@@ -357,19 +357,19 @@
   },
   {
     "of_total": 15,
-    "mark": 4,
+    "mark": 10,
     "results": [
       {
-        "value": 0,
-        "name": "exercise 1: get_a_word_of_length_n None"
+        "value": 1,
+        "name": "exercise 1: get_a_word_of_length_n raash"
       },
       {
-        "value": 0,
-        "name": "exercise 1: get_a_word_of_length_n None"
+        "value": 1,
+        "name": "exercise 1: get_a_word_of_length_n iotacism"
       },
       {
-        "value": 0,
-        "name": "exercise 1: get_a_word_of_length_n None"
+        "value": 1,
+        "name": "exercise 1: get_a_word_of_length_n iuds"
       },
       {
         "value": 1,
@@ -380,15 +380,15 @@
         "name": "exercise 1: get_a_word_of_length_n None"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "exercise 1: list_of_words_with_lengths None"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "exercise 1: list_of_words_with_lengths None"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "exercise 1: wordy_pyramid has been refactored"
       },
       {
