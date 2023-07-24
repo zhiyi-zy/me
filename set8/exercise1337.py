@@ -244,7 +244,7 @@ def random_filler_text(number_of_words=200) -> str:
     words = []
     word_lengths = list(my_dict.keys())
 
-    for _ in range(number_of_words):
+    for i in range(number_of_words):
         word_length = random.choice(word_lengths)
         random_word = random.choice(my_dict[word_length])
         words.append(random_word)
@@ -279,7 +279,7 @@ def fast_filler(number_of_words=200) -> str:
     words = []
     word_lengths = list(cached_dict.keys())
 
-    for _ in range(number_of_words):
+    for i in range(number_of_words):
         word_length = random.choice(word_lengths)
         random_word = random.choice(cached_dict[str(word_length)])  # Convert the integer key back to string
         words.append(random_word.capitalize() + '.')
