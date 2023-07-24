@@ -360,7 +360,7 @@
   "7",
   {
     "of_total": 34,
-    "mark": 32,
+    "mark": 34,
     "results": [
       {
         "value": 1,
@@ -487,12 +487,12 @@
         "name": "\nfast_filler:\n    given:    100\n    expected: True\n    got:      True"
       },
       {
-        "value": 0,
-        "name": "\nfast_filler:\n    given:    10\n    expected: True\n    got:      False"
+        "value": 1,
+        "name": "\nfast_filler:\n    given:    10\n    expected: True\n    got:      True"
       },
       {
-        "value": 0,
-        "name": "\nfast_filler:\n    given:    10\n    expected: True\n    got:      False"
+        "value": 1,
+        "name": "\nfast_filler:\n    given:    10\n    expected: True\n    got:      True"
       },
       {
         "value": 1,

@@ -282,7 +282,7 @@ def fast_filler(number_of_words=200) -> str:
     for _ in range(number_of_words):
         word_length = random.choice(word_lengths)
         random_word = random.choice(cached_dict[str(word_length)])  # Convert the integer key back to string
-        words.append(random_word)
+        words.append(random_word.capitalize() + '.')
 
     return " ".join(words)
 
