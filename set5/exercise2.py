@@ -84,9 +84,9 @@ def abba(source="abba", guard=3):
 
     Modify the rules to map from:
 
-                   abba
+                    abba
                     to
-               bbaaobaobbba
+                    bbaaobaobbba
                     to
     aobaobbbabbaoaaobbbaoaaobaobaobbba
                 and so on...
@@ -108,7 +108,6 @@ def abba(source="abba", guard=3):
         else:
             return letter
 
-    # write the rest of the function here
     pass
 
 
