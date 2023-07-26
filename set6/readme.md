@@ -1,3 +1,1 @@
-TODO: Reflect on what you learned this week and what is still unclear.
-
 This week was flex week but I used my term break to do additional research on my dataset on 'AirBnBs in Tasmania', and also did some revision on the previous programming exercises (Set 1 to 4) to prepare for the upcoming programming quiz that will be held in Week 9. I also studied and explored several topics on Time Complexity that was on Khan Academy as suggested by Ben. As of Week 6, I did not face any issues on the programming questions but am struggling to understand the last few questions in Set 4.

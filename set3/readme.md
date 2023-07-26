@@ -1,5 +1,3 @@
-TODO: Reflect on what you learned this week and what is still unclear.
-
 Diagram for Set 2 Exercise 2:
 https://ibb.co/G3XVVTG
 

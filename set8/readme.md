@@ -1,3 +1,1 @@
-TODO: Reflect on what you learned this week and what is still unclear.
-
 In this week's tutorial, we learnt how to draw maps using python by using the example shapefiles given by data.gov.au. I think that the given example relating to suburbs in NSW will be very useful to my dataset as it involves location and geographical info. By the end of this week, I aim to have applied the data from my dataset into a map so that I can analyze locations better.

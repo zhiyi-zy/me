@@ -1,1 +1,1 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+This week I further analyzed our datasets and recorded our findings to prepare for the online presentation that will be held in week 12. The findings are then collected and displayed in my open data project folders.

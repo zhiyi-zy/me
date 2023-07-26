@@ -1,1 +1,1 @@
-TODO: Reflect on what you learned this week and what is still unclear.
+Set 5 exercises have not been implemented yet but during Week 5,I showed my tutors the dataset that I have picked - that is the open data set for AirBnB's in Tasmania. My dataset was approved with over 5000 rows of accommodations and their respective data. I also looked through the slides for next class, i.e. Pandas and installing the appropriate program.

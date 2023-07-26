@@ -1,5 +1,3 @@
-TODO: Reflect on what you learned this week and what is still unclear.
-
 This week's vocabulary words that I learnt are:
 1. calling - instructing the program to execute the code within that function.
 2. argument - values passed to a function or method when called or invoked
