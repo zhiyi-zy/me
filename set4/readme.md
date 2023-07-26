@@ -1,4 +1,4 @@
-Open Data Project Data Audit - AirBnBs in Tasmania, Australia
+Open Data Project Data Audit - AirBnBs in Tasmania (Australia)
 
 How many rows and columns?
 There are 5578 rows and 18 columns in this dataset.
