@@ -75,12 +75,11 @@ def italian_rules(word):
     else:
         return word
 
-
 def abba(source="abba", guard=3):
-    """Recursively replace letters acording to the rules.
+    """Recursively replace letters according to the rules.
 
     This function takes a seed string, e.g. "abba" and replaces each letter in
-    turn acording to the rules. These rules can be of arbitrary complexity.
+    turn according to the rules. These rules can be of arbitrary complexity.
 
     Modify the rules to map from:
 
@@ -95,20 +94,25 @@ def abba(source="abba", guard=3):
     def apply_rules(letter):
         """Control the substitution.
 
-        You need to change these substitutions to make it work.
-
         Hint: when guard == -1 return the letter.
         """
         if letter == "a":
-            return "a"
+            return "aob"
         elif letter == "b":
-            return "b"
-        elif letter == "o":
-            return "o"
+            return "bba"
         else:
             return letter
 
-    pass
+    if guard == -1:
+        return source
+    else:
+        new_source = ''.join(apply_rules(letter) for letter in source)
+        return abba(new_source, guard - 1)
+
+# Test the function
+result = abba()
+print(result)
+
 
 
 def koch(t, order, size):

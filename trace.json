@@ -357,19 +357,19 @@
   },
   {
     "of_total": 15,
-    "mark": 10,
+    "mark": 11,
     "results": [
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n raash"
+        "name": "exercise 1: get_a_word_of_length_n nabak"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n iotacism"
+        "name": "exercise 1: get_a_word_of_length_n iranians"
       },
       {
         "value": 1,
-        "name": "exercise 1: get_a_word_of_length_n iuds"
+        "name": "exercise 1: get_a_word_of_length_n faba"
       },
       {
         "value": 1,
@@ -408,7 +408,7 @@
         "name": "exercise 2: abba roof\u21e8roabbaoabbaf"
       },
       {
-        "value": 0,
+        "value": 1,
         "name": "exercise 2: abba hell\u21e8hell"
       },
       {
